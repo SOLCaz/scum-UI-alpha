@@ -1,0 +1,59 @@
+/* Customize your main colors in :root variables */
+:root {
+  --main-background-color: #ff9721;
+  --card-background-color: #fdc070;
+  --card-background-lighter-color: #ff9721;
+  --main-text-color:#ffffff;
+  --title-text-color:#ffffff;
+}
+
+
+h2, p{
+  color: var(--main-text-color);
+}
+
+h3{
+font-weight: normal;
+}
+
+.MuiFab-extended{
+  height: auto;
+  padding-right: 0 !important;
+}
+
+.MuiFab-label{
+  font-weight: bold;
+}
+
+.MuiPaper-root{
+  background:none !important;
+  box-shadow: none;
+}
+
+.MuiButton-containedPrimary:not(.MuiButton-fullWidth){
+  border-radius:50px !important;
+  padding: 6px 16px;
+
+}
+
+.MuiButton-label{
+  font-size: 1.2em;
+}
+
+.MuiLinearProgress-colorPrimary{
+  background-color:var(--main-text-color) !important;
+
+}
+
+.MuiLinearProgress-barColorPrimary{
+  background-color: var(--card-background-color) !important;
+  border-radius: 0 10px 0 10px;
+  
+}
+
+
+.dzdKvg {
+  position: relative;
+ top: -157px;
+ left: 268px;
+}

@@ -1,0 +1,15 @@
+{
+  "short_name": "Peach.Fun",
+  "name": "Peach.Fun",
+  "icons": [
+    {
+      "src": "logo.jpg",
+      "type": "image/jpg",
+      "sizes": "358x358"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
